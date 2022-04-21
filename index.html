@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Music Player</title>
+</head>
+
+<body>
+    <header>
+        <div class="containerHeader">
+            <img src="./images/Eu.png" alt="">
+            <h2>Lucas Franco</h2>
+        </div>
+        <nav>
+            <a href="https://www.linkedin.com/in/lucas-franco-barbosa-navarro-a51937221/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/LucasFrancoBN" target="_blank">Github</a>
+            <a href="mailto:lucasfbnavarro@gmail.com" target="_blank">Gmail </a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="descricao">
+                <h1>Music Player</h1>
+                <p>Projeto feito com intenção de estudar as funcionalidades de audio da tag HTML audio, além de mexer também
+                    com alguns métodos do JS. Dê um play e experiemnte um pouco das músicas pré selecionadas :D</p>
+            </div>
+
+            <div class="musica">
+                <figure><img class="imagemMusica" src="./images/bury.jpg" alt=""></figure>
+                <audio src="./music/buryTheLight.mp3"></audio>
+                <div class="nomeMusica">
+                    <h2>Bury The Light</h2>
+                </div>
+                <div class="duracao">
+                    <div class="barra">
+                        <progress value="1" max="1"></progress>
+                        <div class="ponto"></div>
+                    </div>
+                    <div class="tempo">
+                        <p class="inicio">0:00</p>
+                        <p class="fim">9:48</p>
+                    </div>
+                </div>
+                <div class="botoes">                        
+                    <i class="fa-solid fa-backward-step setas anterior"></i>
+                    <i class="fa-solid fa-play botao-play"></i>
+                    <i id="pause" class="fa-solid fa-pause botao-pause"></i>
+                    <i class="fa-solid fa-forward-step setas proxima"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por <strong>Lucas Franco :D</strong></p>
+    </footer>
+
+    <!-- LINK FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/afc74ddb30.js" crossorigin="anonymous"></script>
+    <!-- LINK JAVASCRIPT PRINCIPAL -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
