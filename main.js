@@ -37,7 +37,7 @@ anterior.addEventListener("click", () => {
 });
 
 proxima.addEventListener("click", () => {
-    index++;
+    indexMusica++;
     if(indexMusica > 3){
         indexMusica = 0;
     }

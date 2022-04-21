@@ -188,6 +188,75 @@ footer p{
     font-family: 'Roboto', sans-serif;
 }
 
+@media screen and (max-height: 900px){
+    .musica{
+        height: 50vh;
+    }
+}
+
+@media screen and (max-height: 900px) and (max-width: 750px){
+    header{
+        max-width: 500px;
+        margin: auto;
+        padding: 20px 0;
+    }
+    .containerHeader h2{
+        font-size: 1.15rem;
+    }
+    header nav a{
+        border: 2px solid white;
+        font-size: 0.75rem;
+    }
+
+    .container{
+        max-width: 500px;
+    }
+
+    .descricao h1{
+        font-size: 1.5rem;
+    }
+
+    .descricao p{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-height: 750px) {
+    .musica{
+        height: 60vh;
+    }
+}
+
+@media screen and (max-height: 750px) and (max-width: 570px) {
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    .containerHeader img{
+        width: 75px;
+    }
+    header nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    header nav a{
+        padding: 10px 100px;
+    }
+
+    .container{
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .musica{
+        height: 65vh;
+    }
+}
+
 
 
 
