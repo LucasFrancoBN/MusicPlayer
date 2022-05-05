@@ -1,2 +1,2 @@
 # PlayerMusica
-<h3 align="center"> 🚧 Projeto PlayerMusic 🚀 em construção :🚧 </h3>
+<h3 align="center"> 🚧 Projeto PlayerMusic 🚀 em construção :D🚧 </h3>
