@@ -33,7 +33,7 @@
     <h2> 📝 Sobre o Projeto </h2> 
     <p> Esse projeto é somente um player de música padrão onde ele <strong> toca </strong> uma das músicas selecionadas, <strong>pula </strong> para a próxima,<strong> retrocede </strong> e tem uma barra que aparece o tempo, além do  <strong> tempo atual </strong> da música e qual é o <strong> tempo total </strong> da música.</p>
  
- <h3 align="center">Link do Projeto <a href="https://lucasfrancobn.github.io/Verificador-de-Idade/">CLIQUE AQUI</a></h3>
+ <h3 align="center">Link do Projeto <a href="https://lucasfrancobn.github.io/MusicPlayer/">CLIQUE AQUI</a></h3>
 
 <h3> ATENÇÃO: O autor deste projeto não tem os direitos autorais das músicas, o projeto foi jeito apenas para o estudos das tecnologias utilizadas nesse projeto. </h3>
 
