@@ -54,6 +54,7 @@ header nav a{
 header nav a:hover{
     background-color: white;
     color:#2C80C9;
+    transition: ease-in-out 0.3s;
 }
 
 header nav a:active{
@@ -182,6 +183,7 @@ main{
 footer{
     display: flex;
     justify-content: center;
+    margin-bottom: 35px;
 }
 
 footer p{
