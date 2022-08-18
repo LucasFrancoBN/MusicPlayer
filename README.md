@@ -1,4 +1,4 @@
-<h1>Verificador de Idade</h1>
+<h1>Music Player</h1>
 
 <!-- LINKS -->
 <div align="center">
